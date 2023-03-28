@@ -6,7 +6,7 @@ import Footer from './component/Footer';
 import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
-
+import { Route ,Routes} from 'react-router-dom';
 
 function App() {
   const images = [
@@ -17,19 +17,21 @@ function App() {
     { url: "https://cdn.grabon.in/gograbon/images/web-images/uploads/1593767938443/groceries-offers.jpg"},
   ] 
   return (
-    <div className="App">
-        <Header/>
+    <div className="App"> 
+    
+       
+      <Header/>
         <List/>
          <div className="containerStyles">
         <Slider images={images} />
     </div>
-   <Login/>
-   <Signup/>
-   <h1><Footer/></h1>
-    </div> 
-   {/* <Login/> */}
-   {/* <Signup/> */}
    <Product />
+   <Footer/> 
+     <Routes>
+      <Route path='/login' element={<Login/>}/>
+       <Route path='/signup' element={<Signup/>}/>
+     </Routes>
+       
     </div>
   );
 }

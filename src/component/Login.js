@@ -1,6 +1,14 @@
+import { Link } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Login.css';
 const Login = () => {
 
+    const toastifyNotification=()=>{
+        toast.success('🦄Login Successfull!!',{
+            position:"bottom-right"
+        })
+    }
     return (
         <div className='main_container'>
           <h1>Sign In</h1> 
@@ -21,11 +29,14 @@ const Login = () => {
                 Forget Password
             </div>
 
-            <input  className =" login"type="submit" value="Sign In" />
+            <button onClick={toastifyNotification} className='login'>Sign-in</button>
+           
             <div className="signuplink">
-                Not a member?<a href='#'>SignUp</a>
+               Create New Account __ 
+                <Link className="sign"to='/signup'>signup</Link>
             </div>
           </form>
+          <ToastContainer />
         </div>
     );
 }
