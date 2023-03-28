@@ -2,6 +2,7 @@ import './App.css';
 import Login from './component/Login';
 import Signup from './component/Signup';
 import Slider from './component/Slider';
+import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
 
@@ -22,6 +23,7 @@ function App() {
     </div> 
    {/* <Login/> */}
    {/* <Signup/> */}
+   <Product />
     </div>
   );
 }
