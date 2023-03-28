@@ -3,6 +3,10 @@ import Login from './component/Login';
 import Signup from './component/Signup';
 import Slider from './component/Slider';
 import Footer from './component/Footer';
+import Product from './component/Product';
+import Header from './component/Header';
+import List from './component/List';
+
 
 function App() {
   const images = [
@@ -14,12 +18,18 @@ function App() {
   ] 
   return (
     <div className="App">
-        <div className="containerStyles">
+        <Header/>
+        <List/>
+         <div className="containerStyles">
         <Slider images={images} />
     </div>
    <Login/>
    <Signup/>
    <h1><Footer/></h1>
+    </div> 
+   {/* <Login/> */}
+   {/* <Signup/> */}
+   <Product />
     </div>
   );
 }
