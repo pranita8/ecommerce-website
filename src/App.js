@@ -17,9 +17,9 @@ function App() {
     <div className="App">
         <Header/>
         <List/>
-        {/* <div className="containerStyles">
+         <div className="containerStyles">
         <Slider images={images} />
-    </div> */}
+    </div> 
    {/* <Login/> */}
    {/* <Signup/> */}
     </div>
