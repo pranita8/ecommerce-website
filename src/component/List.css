@@ -1,0 +1,15 @@
+.list{
+    background:white;
+    display: flex;
+    justify-content:space-around;
+}
+.images{
+    width: 60px;
+    height: 60px;
+}
+
+.elements{
+    width: 70px;
+    height: 100px;
+    padding-top:10px;
+}
