@@ -2,6 +2,8 @@ import './App.css';
 import Login from './component/Login';
 import Signup from './component/Signup';
 import Slider from './component/Slider';
+import Footer from './component/Footer';
+
 function App() {
   const images = [
     { url: "https://www.compareraja.in/blog/wp-content/uploads/2014/01/flipkart-book-offers-1440x564_c.jpg"},
@@ -15,8 +17,9 @@ function App() {
         <div className="containerStyles">
         <Slider images={images} />
     </div>
-   {/* <Login/> */}
-   {/* <Signup/> */}
+   <Login/>
+   <Signup/>
+   <h1><Footer/></h1>
     </div>
   );
 }
