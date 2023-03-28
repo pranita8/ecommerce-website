@@ -14,7 +14,7 @@ const Header = () => {
         <input type="search" placeholder="Search here"></input>
         <AiOutlineSearch className="search_icon" />
       </div>
-      <ul className="login">
+      <ul className="Headerlogin">
         <li>
           <button>Login</button>
         </li>
