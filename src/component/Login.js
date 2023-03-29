@@ -5,7 +5,7 @@ import './Login.css';
 import {auth} from '../firebase';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from 'react';
-import InputControl from './InputControl';
+import InputControl from './Input';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -41,8 +41,7 @@ const Login = () => {
     return (
         <div className='main_container'>
             <h1>Sign In</h1>
-            {/* <form > */}
-
+         <div className='form'>
          <InputControl
           label="Email"
           onChange={(event) =>
@@ -67,8 +66,9 @@ const Login = () => {
                     Create New Account  ?__
                     <Link className="sign" to='/signup'>signup</Link>
                 </div>
-            {/* </form> */}
+            </div>
             <ToastContainer />
+
         </div>
     );
 }

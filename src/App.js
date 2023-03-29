@@ -7,9 +7,10 @@ import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
 import { Route, Routes } from 'react-router-dom';
-import { useEffect,useState } from 'react';
-import { auth } from "./firebase";
 
+
+
+// slider array images
 function App() {
   const images = [
     { url: "https://www.compareraja.in/blog/wp-content/uploads/2014/01/flipkart-book-offers-1440x564_c.jpg" },
@@ -18,29 +19,16 @@ function App() {
     { url: "https://www.lookinggoodfurniture.com/wp-content/uploads/2018/06/sofa-offer-banner.jpg" },
     { url: "https://cdn.grabon.in/gograbon/images/web-images/uploads/1593767938443/groceries-offers.jpg" },
   ]
-  const [userName, setUserName] = useState("");
-  useEffect(() => {
-    auth.onAuthStateChanged((user) => {
-      if (user) {
-        setUserName(user.displayName);
-      } else setUserName("");
-    });
-  }, []);
 
 
   return (
     <div className="App">
-      {/* <Header/> */}
-      {/* <List/> */}
-      {/* <div className="containerStyles">
-        <Slider images={images} />
-        </div>
-       <Product />
-       <Footer/>  */}
+  
 
       <Routes>
+        {/* home page */}
         <Route path='/' element={
-          <><Header name={userName}/>
+          <><Header/>
             <List />
             <div className="containerStyles">
               <Slider images={images} />

@@ -5,30 +5,35 @@ import { auth } from "../firebase";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
-import InputControl from './InputControl';
+import Input from './Input';
 
 const Signup = () => {
   const navigate = useNavigate();
+
   //setting values name ,email, password
   const [values, setValues] = useState({
     name: "",
     email: "",
     pass: "",
   });
+
   console.log(values);
   const [errorMsg, setErrorMsg] = useState("");
 //preventin to creating always state by disabling button
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
-  // const [errorMsg, setErrorMsg] = useState("");
 
+  // handling the state of button
   const handleSubmission = ()=> {
-    if (!values.name || !values.email || !values.pass) {
+    //if any one of the value is not passed set error message ="fill details"  else erro =empty string
+    if( (!values.name || !values.email || !values.pass)||(!values.name && !values.email && !values.pass)) {
       setErrorMsg("Fill all fields");
       toast(errorMsg);
       return;
     }setErrorMsg("");
 
+
     setSubmitButtonDisabled(true);
+
     //creating account  (it returning promise)
      createUserWithEmailAndPassword( auth,values.email, values.pass)
       
@@ -38,6 +43,7 @@ const Signup = () => {
          updateProfile(user, {
           displayName: values.name,
         });
+        // after sucessfull login redirect to the home page 
         navigate("/");
       }) 
       .catch((err) => {
@@ -49,39 +55,32 @@ const Signup = () => {
   });
   };
 
- 
-  // const toastifyNotification = () => {
-  //   toast.success(errorMsg, {
-  //     position: "bottom-right"
-  //   })
-  // }
 
   return (
     <div className='main_container'>
       <h1>Sign UP</h1>
-      {/* <form> */}
-
+      <div className='form'>
         {/* onchange of input field we are setting values  */}
-        <InputControl
+        <Input
           label="Name"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, name: event.target.value }))
           }
         />
     {/* //  ...prev is used to store previous data if we are not using it then condition at the handlesubmit will true and show error msg */}
-        <InputControl
+        <Input
           label="Email"
           onChange={(event) => setValues((prev) => ({ ...prev, email: event.target.value }))
           }
         />
 
-        <InputControl
+        <Input
           label="Password"
           onChange={(event) => setValues((prev) => ({ ...prev, pass: event.target.value }))
           }
         />
-          {/* {toast.success({errorMsg})} */}
-          {/* <b>{errorMsg}</b> */}
+          
+         
         <button className="signup" onClick={handleSubmission} disabled={submitButtonDisabled}>
           Signup
         </button>
@@ -90,8 +89,8 @@ const Signup = () => {
           Already have an account ?__
           <Link to='/login' className="sign">signin</Link>
         </div>
-      {/* </form> */}
       <ToastContainer />
+      </div>
     </div>
   );
 }
