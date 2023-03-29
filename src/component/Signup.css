@@ -18,11 +18,11 @@
     padding: 0 40px;
     box-sizing: border-box;
 }
-.textfield{
+/* .textfield{
     position: relative;
     margin: 30px 0;
-}
-.textfield input{
+} */
+/* .textfield input{
     width: 100%;
     padding: 0 5px;
     height: 40px;
@@ -62,15 +62,15 @@
 .textfield input:valid ~span::before {
    width: 100%;
 
-}
-.forgetpass{
+} */
+/* .forgetpass{
     margin: -5px 0 20px 5px;
     color: #151414;
      cursor: pointer;
 }  
 .forgetpass:hover{
     text-decoration: underline;
-}
+} */
 .signup{
     width: 100%;
     height: 50px;
@@ -82,6 +82,9 @@
     font-weight: 700;
     cursor: pointer;
     outline: none;
+}
+.signup:disabled{
+    background-color: gray !important;
 }
 .signup:hover{
     background-color: antiquewhite;
