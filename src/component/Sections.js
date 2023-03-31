@@ -35,4 +35,8 @@ const Sections = (props) => {
   );
 };
 
+
 export default Sections;
+
+export default Sections;
+
