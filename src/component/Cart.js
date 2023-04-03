@@ -26,7 +26,7 @@ const Cart = () => {
         <hr />
         
         <div className="cart-section">
-            <h2>Shopping Cart</h2>
+            <h2>SHOPPING CART</h2>
             <div className="shopped-items">
                 <div className="items-container">
                 <Scrollbars>
