@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Lists from './List.css'
-import Viewall from './Viewall'
+
 
 function List() {
+
+  
   return (
     <>
     <div className='list'>
@@ -29,9 +31,7 @@ function List() {
         </div>
     </div>
 
-    {/* <div className='containerlist'>
-
-     </div> */}
+   
     </>
   )
 }
