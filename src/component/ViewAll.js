@@ -1,8 +1,8 @@
-import React,{useState} from 'react'
+// import React,{useState} from 'react'
 // import Header from './component/Header'
 import Header from './Header'
 import List from './List'
-import ViewAlll from './ViewAll.css'
+import './ViewAll.css'
 import Card from './Card'
 
 

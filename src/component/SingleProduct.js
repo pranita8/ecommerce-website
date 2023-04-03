@@ -46,6 +46,13 @@ const SingleProduct = ({}) => {
               <img src={product.img3}  alt=''/>
               <img src={product.img4}  alt=''/>
             </div>
+
+            <div className="wishlist">
+              <button className="wishlist-button">
+                
+              </button>
+            </div>
+
             <div className='buy_button'>
             <button className="cart_button" onClick={handleAddToCart}>Add to Cart</button>
             <button className="cart_button" onClick={handleBuyNow}>Buy Now</button>
