@@ -15,9 +15,9 @@ function App() {
         <div className="containerStyles">
         <Slider images={images} />
     </div>
-   {/* <Login/> */}
-   {/* <Signup/> */}
-    </div>
+   <Login/> 
+   <Signup/>
+    </div> 
   );
 }
 
