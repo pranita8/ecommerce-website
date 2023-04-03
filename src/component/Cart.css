@@ -1,13 +1,16 @@
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
 .main-page{
     padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 3%;
 }
+
 .header{
    background: linear-gradient(#fad7d7,#887878);
    display: flex;
