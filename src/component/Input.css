@@ -1,0 +1,47 @@
+.textfield{
+    position: relative;
+    margin: 30px 0; 
+}
+
+.textfield input{
+    width: 100%;
+    padding: 0 5px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: rgb(207, 229, 248);
+}
+label{
+    position: absolute;
+    top: 60%;
+    left:10px;
+    color: #666161;
+    font-size: 16px;
+    transform: translateY(-80%);
+    transition: 0.5s;
+  
+}
+
+.textfield span::before{
+    content:" ";
+    position: absolute;
+    top:40px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+}
+
+.textfield input:focus ~label,
+.textfield input:valid ~label{
+   top: -5px;
+   color:#0c0c0c; 
+} 
+
+.textfield input:focus ~span::before,
+.textfield input:valid ~span::before {
+   width: 100%;
+
+}
