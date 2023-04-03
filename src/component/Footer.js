@@ -8,7 +8,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { MdCardGiftcard } from 'react-icons/md';
 import { RiAdvertisementLine } from 'react-icons/ri';
 import { FiHelpCircle } from 'react-icons/fi';
-
+import { Link } from "react-router-dom";
 const Footer = () => {
     return(
         <div className="footer">
@@ -16,7 +16,8 @@ const Footer = () => {
                 <div className="sub-sections">
                     <div className="about-section">
                         <h1>About</h1>
-                        <a href="/contact"><p>Contact Us</p></a>
+                        <Link to="/contact">Contact Us</Link>
+                        {/* <a href="/contact"><p>Contact Us</p></a> */}
                         <a href="/about"><p>About Us</p></a>
                         <a href="/career"><p>Careers</p></a>
                     </div>
