@@ -1,8 +1,10 @@
 import React from 'react'
 import Lists from './List.css'
+import Viewall from './Viewall'
 
 function List() {
   return (
+    <>
     <div className='list'>
         <div className='elements'>
             <img className ="images"src='https://e7.pngegg.com/pngimages/74/72/png-clipart-grocery-store-kabul-farms-supermarket-food-online-grocer-grocery-food-food-supermarket-thumbnail.png' alt='grocerey'/>
@@ -26,6 +28,11 @@ function List() {
             <p>Books</p>
         </div>
     </div>
+
+    {/* <div className='containerlist'>
+
+     </div> */}
+    </>
   )
 }
 
