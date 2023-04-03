@@ -7,7 +7,6 @@ import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
 import { Route, Routes } from 'react-router-dom';
-import Allproduct from './component/Allproduct';
 
 
 
@@ -31,8 +30,13 @@ function App() {
     </div> 
   
 
+    <Routes>
+        {/* home page */}
+
       <Routes>
         {/* home page */}
+        
+
         <Route path='/' element={
           <><Header/>
             <List />
@@ -42,9 +46,14 @@ function App() {
             <Product />
             <Footer />
           </>} />
+
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/allproducts' element={<Allproduct/>}/>
+      </Routes>
+  
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
       </Routes>
     </div>
 

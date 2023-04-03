@@ -16,8 +16,10 @@ const Sections = (props) => {
             alt="img"
           ></img>
         </div>
+
         <div className="images">
-          {props.images.map((image, index) => (
+          {props.images.map((image, index) => 
+          (
             <div>
               <img
                 className="img"
@@ -31,6 +33,7 @@ const Sections = (props) => {
                 <h4>{image.desc}</h4>
               </div>
             </div>
+            
           ))}
         </div>
       </div>
