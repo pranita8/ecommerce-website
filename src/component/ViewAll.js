@@ -5,6 +5,7 @@ import List from './List'
 import ViewAlll from './ViewAll.css'
 import Card from './Card'
 
+
 function ViewAll() {
   const grocery_images = [
     {

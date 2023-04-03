@@ -17,9 +17,6 @@ function Card({data}) {
     })
     }
   
-
-   
-
     </div>
   )
 }
