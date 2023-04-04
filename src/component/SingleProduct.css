@@ -9,7 +9,7 @@
     background-color: #e2e4e8;
     block-size: 700px;
   }
-  
+
 .left-container {
   display: flex;
   flex-direction: column;
@@ -20,6 +20,7 @@
   display:inline-block;
   /* position: fixed; */
 }
+
 
 .all_buttons{
   display:flex;
