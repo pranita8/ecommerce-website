@@ -1,6 +1,6 @@
 import React from "react";
 import Sections from "./Sections";
-import Allproduct from "./Allproduct";
+
 const Product = () => {
   const electronic_images = [
     {
@@ -381,7 +381,7 @@ const Product = () => {
       <Sections images={grocery_images} type={Grocery} />
       <Sections images={home_images} type={Home}/>
       <Sections images={books_images} type={Books}/>
-       <Allproduct type={Fashion}/>
+    
     </div>
   );
 };
