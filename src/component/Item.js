@@ -20,6 +20,7 @@ const Item = ({ id, src, alt, product, price, desc}) => {
                         <input type="text" placeholder="1"></input> 
                         <button><AiOutlinePlus /></button>                 
                     </div>
+                    
                     <div className="item-price">
                         <h4>{price}</h4>
                     </div>
@@ -30,7 +31,7 @@ const Item = ({ id, src, alt, product, price, desc}) => {
                     </div>
                 </div>
               
-              
+
                 <hr />
     </div>
   )
