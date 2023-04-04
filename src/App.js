@@ -3,7 +3,7 @@ import Login from './component/Login';
 import Signup from './component/Signup';
 // import Slider from './component/Slider';
 // import Footer from './component/Footer';
-// import Product from './component/Product';
+import Product from './component/Product';
 // import Header from './component/Header';
 // import List from './component/List';
 // import ViewAll from './component/ViewAll';
@@ -24,20 +24,9 @@ function App() {
 
   return (
     <div className="App">
-        <div className="containerStyles">
-        <Slider images={images} />
-        <Login/> 
-        <Signup/>
-    </div> 
-  
-
-    <Routes>
-        {/* home page */}
-
       <Routes>
         {/* home page */}
         
-
         <Route path='/' element={
           <>
             {/* <Header/>
@@ -46,21 +35,15 @@ function App() {
               <Slider images={slides} />
             </div>
             <ViewAll /> */}
-            {/* <Product /> */}
+            <Product />
             <SingleProduct/>
             {/* <Footer /> */}
           </>} />
 
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-        <Route path='/allproducts' element={<Allproduct/>}/>
-      </Routes>
-  
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup />} />
       </Routes>
     </div>
-
   );
 }
 
