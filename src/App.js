@@ -7,13 +7,14 @@ import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
 import { Route, Routes } from 'react-router-dom';
+import AllItems from './component/AllItems';
 // import Allproduct from './component/Allproduct';
 
 
 
 // slider array images
 function App() {
-  const images = [
+  const slides = [
     { url: "https://www.compareraja.in/blog/wp-content/uploads/2014/01/flipkart-book-offers-1440x564_c.jpg" },
     { url: "https://i.pinimg.com/originals/b8/ce/12/b8ce12af4e594bcb26b8f55b0377dad4.jpg" },
     { url: "https://images.indianexpress.com/2020/11/Untitled-design-93.jpg" },
@@ -32,7 +33,7 @@ function App() {
           <><Header/>
             <List />
             <div className="containerStyles">
-              <Slider images={images} />
+              <Slider slides={slides} />
             </div>
             <Product />
             <Footer />
@@ -40,6 +41,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         {/* <Route path='/allproducts' element={<Allproduct/>}/> */}
+        <Route path='/allItems' element={<AllItems/>}/>
       </Routes>
     </div>
   );

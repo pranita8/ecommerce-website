@@ -40,7 +40,7 @@ const dotStyle = {
   fontSize: "20px",
 };
 
-const Slider = ({ images }) => {
+const Slider=({slides}) => {
   // usestate create
   const [currIndex, setCurrIndex] = useState(0);
 
@@ -50,13 +50,13 @@ const Slider = ({ images }) => {
 
   //if it is  firstslide and try to back again the it will provide lenth -1 index (last image index)
   //else it will provide current index -1
-    const newIndex = FirstSlide ? images.length - 1 : currIndex - 1;
+    const newIndex = FirstSlide ? slides.length - 1 : currIndex - 1;
     setCurrIndex(newIndex);
   };
 
   //next slide image
   const next= () => {
-    const LastSlide = currIndex === images.length - 1;
+    const LastSlide = currIndex === slides.length - 1;
     //if it is lastslide and try to next again the it will provide 0 index (first image index)
     //else it will provide current index+1
     const newIndex = LastSlide ? 0 : currIndex + 1;
@@ -72,7 +72,7 @@ const Slider = ({ images }) => {
   const slideStylesWidthBackground = {
     ...slideStyles,
     // set background image
-    backgroundImage: `url(${images[currIndex].url})`,
+    backgroundImage: `url(${slides[currIndex].url})`,
   };
 
   return (
@@ -90,7 +90,7 @@ const Slider = ({ images }) => {
       <div style={dotsContainerStyles}>
         {/* mapping of array */}
 
-        {images.map((slide, Index) => (
+        {slides.map((slide, Index) => (
           <div
           key={Index}
             style={dotStyle}
