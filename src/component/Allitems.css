@@ -1,0 +1,11 @@
+  .card-container img {
+    max-width: 100%;
+    height: 300px;
+  }
+  .main-card--cointainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(232, 216, 248);
+    padding: 20px;
+  }
+  
