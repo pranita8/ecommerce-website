@@ -7,7 +7,7 @@ import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
 
-import Product from './component/Product';
+// import Product from './component/Product';
 import Card from './component/Card';
 import ViewAll from './component/ViewAll';
 import { Route, Routes } from 'react-router-dom';
@@ -49,9 +49,9 @@ function App() {
         {/* home page */}
         <Route path='/' element={
           <><Header/>
-            <List />
+            {/* <List /> */}
             <div className="containerStyles">
-              <Slider images={images} />
+              <Slider slides={slides} />
             </div>
             <Product />
             <Footer />
