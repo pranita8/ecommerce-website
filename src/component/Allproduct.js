@@ -1,10 +1,6 @@
 import { async } from '@firebase/util';
 import React,{useEffect, useState} from 'react'
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e5c43e496c986ed2cb493e31b4e1019e561f837f
 const Allproduct=({allprod}) =>{
 console.log(allprod);  
   return (
@@ -30,8 +26,6 @@ console.log(allprod);
   )
 }
 
-<<<<<<< HEAD
 export default Allproduct;
-=======
-export default Allproduct;
->>>>>>> e5c43e496c986ed2cb493e31b4e1019e561f837f
+
+

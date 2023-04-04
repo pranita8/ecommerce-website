@@ -28,6 +28,10 @@ const SingleProduct = ({}) => {
     // add item  add to cart
   };
 
+  const handleWishlist=()=>{
+    
+  };
+
   const handleBuyNow = () => {
     // go to checkout page
   };
@@ -48,8 +52,7 @@ const SingleProduct = ({}) => {
             </div>
 
             <div className="wishlist">
-              <button className="wishlist-button">
-                
+              <button className="wishlist-button" onClick={handleWishlist}>Add to Wishlist
               </button>
             </div>
 
