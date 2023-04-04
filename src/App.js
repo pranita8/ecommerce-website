@@ -5,6 +5,9 @@ import Slider from './component/Slider';
 import Footer from './component/Footer';
 import Header from './component/Header';
 import List from './component/List';
+
+
+// import Product from './component/Product';
 import Product from './component/Product';
 import Card from './component/Card';
 import ViewAll from './component/ViewAll';
@@ -37,7 +40,7 @@ function App() {
         {/* home page */}
         <Route path='/' element={
           <><Header/>
-            <List />
+            {/* <List /> */}
             <div className="containerStyles">
               <Slider slides={slides} />
             </div>
