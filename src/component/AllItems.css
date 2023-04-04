@@ -1,0 +1,31 @@
+.card-container img {
+    max-width: 100%;
+    height: 300px;
+  }
+  .main-card--cointainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(232, 216, 248);
+    padding: 20px;
+  }
+
+  .products-button{
+    border: 0px;
+    color: black;
+    background-color: white;
+  }
+
+  .cart-button{
+    border:black;
+    color:white;
+    background-color:black;
+    margin-top: 15px;
+  }
+
+  .heartt{
+   margin-left:380px;
+    color: red;
+    height: 30px;
+    width: 20px;
+    z-index: 1;
+  }

@@ -616,12 +616,18 @@ const ProductList = [
     prod_info:"Alloy Gold-plated Gold Jewel Set  (Pack of 1)",
   },
   {
+
     id:45,
+
+
+    src: "https://m.media-amazon.com/images/I/71irYwattwL._AC_UL320_.jpg",
+
     src: "https://rukminim1.flixcart.com/image/832/832/xif0q/wallet-card-wallet/5/1/7/-original-imagnvuxfvcc2bze.jpeg?q=70",
     img1:"https://rukminim1.flixcart.com/image/832/832/xif0q/clutch/m/l/a/-original-imagnjumew4eh85v.jpeg?q=70",
     img2:"https://rukminim1.flixcart.com/image/832/832/xif0q/clutch/s/w/o/women-s-and-girls-handclutch-cum-mobile-handpurse-yafc-118-1801-original-imagk49zpeq4feyg.jpeg?q=70",
     img3:"https://rukminim1.flixcart.com/image/832/832/xif0q/wallet-card-wallet/l/4/y/-original-imagggj9dpdzcseu.jpeg?q=70",
     img4:"https://rukminim1.flixcart.com/image/832/832/xif0q/wallet-card-wallet/j/n/t/-original-imagnvuxexycvzw7.jpeg?q=70",
+
     alt: "Product Image 5",
     product: "Purse",
     price: "₹1,359",

@@ -17,7 +17,6 @@ import AllItems from './component/AllItems';
 
 
 
-
 // slider array images
 function App() {
 
@@ -34,27 +33,32 @@ function App() {
   return (
     <div className="App">
 
+     
+  
+
         {/* <ViewAll/> */}
-       
+    
       <Routes>
         {/* home page */}
         <Route path='/' element={
           <><Header/>
+          <AllItems/>
             {/* <List /> */}
-            <div className="containerStyles">
+            {/* <div className="containerStyles">
               <Slider slides={slides} />
             </div>
             <Product />
-            <Footer />
+            <Footer /> */}
           </>} />
-          <Route path='list' element={<>
-          <Header/>
-          <List />
-          <Footer/>
+          <Route path="list" element={<>
+            <Header/>
+            <List/>
+            <Footer/>
           </>}></Route>
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-        <Route path='/allItems' element={<AllItems/>}/>
+        <Route path='/signup' element={<AllItems />} />
+         
       </Routes>
 
     </div>
