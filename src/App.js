@@ -10,6 +10,8 @@ import Card from './component/Card';
 import ViewAll from './component/ViewAll';
 import { Route, Routes } from 'react-router-dom';
 import AllItems from './component/AllItems';
+// import Cart from './component/Cart';
+// import { Scrollbars } from 'react-custom-scrollbars-2';
 
 
 
@@ -52,7 +54,9 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/allItems' element={<AllItems/>}/>
+        {/* <Route path='/addcart' element={<Cart />}/> */}
       </Routes>
+
 
     </div>
   );

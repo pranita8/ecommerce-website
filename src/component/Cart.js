@@ -5,6 +5,7 @@ import Item from "./Item";
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { CgShoppingCart } from 'react-icons/cg';
 import { BiArrowBack} from 'react-icons/bi';
+// import {Link} from "react-router-dom";
 
 
 
@@ -12,6 +13,7 @@ const Cart = () => {
 
     const [item, setItem] = useState(data);
 
+    
 
     return(
         <div className="main-page">
@@ -43,7 +45,7 @@ const Cart = () => {
             </div>
         </div>
         <div className="total">
-            <h4>Total Amount : ₹10000</h4>
+            <h4>Total Amount : {price}</h4>
             <button className="place-order-btn"><h2>Place Order</h2></button>
         </div>
         </div>
