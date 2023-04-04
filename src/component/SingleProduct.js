@@ -42,7 +42,7 @@ const SingleProduct = ({}) => {
   const handleBuyNow = () => {
     // go to checkout page
   };
-
+  
     return(
       <>
         <Header />
@@ -65,9 +65,9 @@ const SingleProduct = ({}) => {
               <button className="cart_button" onClick={handleWishlist}>
               {isWishlisted ? "Remove from list" : "Add to wishlist"}
               {isWishlisted ? (
-                <i className="fas fa-heart"></i>
+                <i className="list"></i>
               ) : (
-                <i className="far fa-heart"></i>
+                <i className="list"></i>
               )}
               </button>
             </div>
@@ -78,7 +78,7 @@ const SingleProduct = ({}) => {
 
           {/* Right container has products details */}
           <div className="right-container">
-            <h1 className='block' >{product.productName}</h1>
+            <h1 className='product_block' >{product.productName}</h1>
             <p className="price block">{product.price}</p>
 
             <div className="size-container-block">
