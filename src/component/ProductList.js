@@ -353,14 +353,14 @@ const ProductList = [
     desc: "Solid silver chain",
     category:"fashion",
   },
-  // {
-  //   src: "https://m.media-amazon.com/images/I/71irYwattwL._AC_UL320_.jpg",
-  //   alt: "Product Image 5",
-  //   product: "Purse",
-  //   price: "Rs 299",
-  //   desc: "Clutch bag purse",
-  //   category:"fashion",
-  // },
+  {
+    src: "https://m.media-amazon.com/images/I/71irYwattwL._AC_UL320_.jpg",
+    alt: "Product Image 5",
+    product: "Purse",
+    price: "Rs 299",
+    desc: "Clutch bag purse",
+    category:"fashion",
+  },
 ];
 
 export default ProductList;
