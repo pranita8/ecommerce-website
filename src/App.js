@@ -3,7 +3,7 @@ import Login from './component/Login';
 import Signup from './component/Signup';
 // import Slider from './component/Slider';
 // import Footer from './component/Footer';
-import Product from './component/Product';
+// import Product from './component/Product';
 // import Header from './component/Header';
 // import List from './component/List';
 // import ViewAll from './component/ViewAll';
@@ -35,7 +35,7 @@ function App() {
               <Slider images={slides} />
             </div>
             <ViewAll /> */}
-            <Product />
+            {/* <Product /> */}
             <SingleProduct/>
             {/* <Footer /> */}
           </>} />
