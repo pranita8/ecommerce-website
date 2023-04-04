@@ -32,11 +32,12 @@ function App() {
 
   return (
     <div className="App">
-{/* 
-        <ViewAll/> */}
+
      
   
 
+        {/* <ViewAll/> */}
+    
       <Routes>
         {/* home page */}
         <Route path='/' element={
@@ -57,6 +58,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/signup' element={<AllItems />} />
+         
       </Routes>
 
     </div>

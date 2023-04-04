@@ -12,6 +12,7 @@ const Header = () => {
           <FcShop className="fcshop" />
           SHOPPERS HUB
         </div>
+        
         <div className="search_bar">
           <input type="search" placeholder="Search here"></input>
           <AiOutlineSearch className="search_icon" />

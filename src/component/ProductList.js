@@ -1,5 +1,6 @@
 const ProductList = [
   {
+    id:1,
     src: "https://m.media-amazon.com/images/I/41IcuNkyrdL._SX300_SY300_QL70_FMwebp_.jpg",
     alt: "Product Image 1",
     product: "Mobile",
@@ -8,6 +9,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:2,
     src: "https://m.media-amazon.com/images/I/718XDEWTPIL._UL1500_.jpg",
     alt: "Product Image 2",
     product: "Watch",
@@ -16,6 +18,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:3,
     src: "https://m.media-amazon.com/images/I/51UhwaQXCpL._SX679_.jpg",
     alt: "Product Image 3",
     product: "Earphones",
@@ -24,6 +27,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:4,
     src: "https://m.media-amazon.com/images/I/51tS-cfYoXL._SX679_.jpg",
     alt: "Product Image 4",
     product: "Charger",
@@ -33,6 +37,7 @@ const ProductList = [
     
   },
   {
+    id:5,
     src: "https://m.media-amazon.com/images/I/51sZaNaWzZL._SX300_SY300_QL70_FMwebp_.jpg",
     alt: "Product Image 5",
     product: "Laptop",
@@ -41,6 +46,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:6,
     src: "https://m.media-amazon.com/images/I/81WtQ64-SOL._SX522_.jpg",
     alt: "Product Image 6",
     product: "Camera",
@@ -49,6 +55,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:7,
     src: "https://m.media-amazon.com/images/I/71S-WpFnW+L._SL1500_.jpg",
     alt: "Product Image 7",
     product: "TV",
@@ -57,6 +64,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:8,
     src: "https://m.media-amazon.com/images/I/71GU85VOpnL._SX522_.jpg",
     alt: "Product Image 8",
     product: "Projector",
@@ -65,6 +73,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:9,
     src: "https://m.media-amazon.com/images/I/31NVItwqOnL._SX300_SY300_QL70_FMwebp_.jpg",
     alt: "Product Image 9",
     product: "Printer",
@@ -73,6 +82,7 @@ const ProductList = [
     category:"electronics",
   },
   {
+    id:10,
     src: "https://m.media-amazon.com/images/I/51GyUUKe-0L._AC_UL320_.jpg",
     alt: "Product Image 1",
     product: "Oil",
@@ -81,6 +91,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:11,
     src: "https://m.media-amazon.com/images/I/91eEvcDs51L._AC_UL320_.jpg",
     alt: "Product Image 2",
     product: "Pulses",
@@ -89,6 +100,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:12,
     src: "https://m.media-amazon.com/images/I/81+FF+RsymL._AC_UL320_.jpg",
     alt: "Product Image 3",
     product: "Atta",
@@ -97,6 +109,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:13,
     src: "https://m.media-amazon.com/images/I/81Xzx5PHTFL._AC_UL320_.jpg",
     alt: "Product Image 4",
     product: "Maggie",
@@ -105,6 +118,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:14,
     src: "https://m.media-amazon.com/images/I/814iBcUf1aL._AC_UL320_.jpg",
     alt: "Product Image 5",
     product: "Cookies",
@@ -113,6 +127,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:15,
     src: "https://m.media-amazon.com/images/I/71foBxdA7tL._AC_UL320_.jpg",
     alt: "Product Image 6",
     product: "BournVita",
@@ -121,6 +136,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:16,
     src: "https://m.media-amazon.com/images/I/81hqKpscwCL._AC_UL320_.jpg",
     alt: "Product Image 7",
     product: "Fruits",
@@ -129,6 +145,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:17,
     src: "https://m.media-amazon.com/images/I/71MekfPhKNL._AC_UL320_.jpg",
     alt: "Product Image 8",
     product: "Honey",
@@ -137,6 +154,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:18,
     src: "https://m.media-amazon.com/images/I/61SpB8J3HqL._AC_UL320_.jpg",
     alt: "Product Image 9",
     product: "Toothpaste",
@@ -145,6 +163,7 @@ const ProductList = [
     category:"grocery",
   },
   {
+    id:19,
     src: "https://m.media-amazon.com/images/I/71ephbjp7FL._AC_UL320_.jpg",
     alt: "Product Image 1",
     product: "Shoe Rack",
@@ -153,6 +172,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:20,
     src: "https://m.media-amazon.com/images/I/81SOycLGtdL._AC_UL320_.jpg",
     alt: "Product Image 2",
     product: "Mat",
@@ -161,6 +181,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:21,
     src: "https://m.media-amazon.com/images/I/71pG4CvrxvL._AC_UL320_.jpg",
     alt: "Product Image 3",
     product: "Chopper",
@@ -169,6 +190,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:22,
     src: "https://m.media-amazon.com/images/I/81ml0s5AHZL._AC_UL320_.jpg",
     alt: "Product Image 4",
     product: "Home Temple",
@@ -177,6 +199,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:23,
     src: "https://m.media-amazon.com/images/I/71QjQZ-nZCL._AC_UL320_.jpg",
     alt: "Product Image 5",
     product: "Lunch box",
@@ -185,6 +208,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:24,
     src: "https://m.media-amazon.com/images/I/61c6L8Y-0aL._AC_UL320_.jpg",
     alt: "Product Image 6",
     product: "Fan",
@@ -193,6 +217,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:25,
     src: "https://m.media-amazon.com/images/I/61SzlTQhA4L._AC_UL320_.jpg",
     alt: "Product Image 7",
     product: "Bedsheet",
@@ -201,6 +226,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:26,
     src: "https://m.media-amazon.com/images/I/61r+cjuG37L._AC_UL320_.jpg",
     alt: "Product Image 8",
     product: "Freshener",
@@ -209,6 +235,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:27,
     src: "https://m.media-amazon.com/images/I/314lsfI3d8L._AC_UL320_.jpg",
     alt: "Product Image 9",
     product: "Furniture",
@@ -217,6 +244,7 @@ const ProductList = [
     category:"home",
   },
   {
+    id:28,
     src: "https://m.media-amazon.com/images/I/81uL5oJmQxL._AC_UY218_.jpg",
     alt: "Product Image 1",
     product: "Vocabulary",
@@ -225,6 +253,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:29,
     src: "https://m.media-amazon.com/images/I/71xWWxjzF7L._AC_UY218_.jpg",
     alt: "Product Image 2",
     product: "Mythology",
@@ -233,6 +262,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:30,
     src: "https://m.media-amazon.com/images/I/81gTwYAhU7L._AC_UY218_.jpg",
     alt: "Product Image 3",
     product: "Motivational ",
@@ -241,6 +271,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:31,
     src: "https://m.media-amazon.com/images/I/7175YpTSa7L._AC_UY218_.jpg",
     alt: "Product Image 4",
     product: "Kids",
@@ -249,6 +280,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:32,
     src: "https://m.media-amazon.com/images/I/71SkkYOAaLL._AC_UY218_.jpg",
     alt: "Product Image 5",
     product: "Stock Market",
@@ -257,6 +289,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:33,
     src: "https://m.media-amazon.com/images/I/71U0g18pxyS._AC_UY218_.jpg",
     alt: "Product Image 6",
     product: "Poems",
@@ -265,6 +298,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:34,
     src: "https://m.media-amazon.com/images/I/819n0tHLQAL._AC_UY218_.jpg",
     alt: "Product Image 7",
     product: "Horror",
@@ -273,6 +307,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:35,
     src: "https://m.media-amazon.com/images/I/71KM8qTSbUL._AC_UY218_.jpg",
     alt: "Product Image 8",
     product: "Pregancy",
@@ -281,6 +316,7 @@ const ProductList = [
     category:"books",
   },
   {
+    id:36,
     src: "https://m.media-amazon.com/images/I/41n1edvVlLL._AC_UY218_.jpg",
     alt: "Product Image 9",
     product: "Biography",
@@ -290,6 +326,7 @@ const ProductList = [
   },
 
   {
+    id:37,
     src: "https://m.media-amazon.com/images/I/71gAlld6UHL._AC_UL320_.jpg",
     alt: "Product Image 1",
     product: "Women Top",
@@ -298,6 +335,7 @@ const ProductList = [
     category:"fashion",
   },
   {
+    id:38,
     src: "https://m.media-amazon.com/images/I/711ou4xAFTL._AC_UL320_.jpg",
     alt: "Product Image 2",
     product: "Footwear",
@@ -306,6 +344,7 @@ const ProductList = [
     category:"fashion",
   },
   {
+    id:39,
     src: "https://m.media-amazon.com/images/I/51wEC1CRZtL._AC_UL320_.jpg",
     alt: "Product Image 3",
     product: "Bags",
@@ -314,6 +353,7 @@ const ProductList = [
     category:"fashion",
   },
   {
+    id:40,
     src: "https://m.media-amazon.com/images/I/71a7hU2E6tL._AC_UL320_.jpg",
     alt: "Product Image 4",
     product: "Women's Set",
@@ -322,6 +362,7 @@ const ProductList = [
     category:"fashion",
   },
   {
+    id:41,
     src: "https://m.media-amazon.com/images/I/71cnAWrBHXL._AC_UL320_.jpg",
     alt: "Product Image 5",
     product: "Jacket",
@@ -330,6 +371,7 @@ const ProductList = [
     category:"fashion",
   },
   {
+    id:42,
     src: "https://m.media-amazon.com/images/I/41tFff4qC6L._AC_UL320_.jpg",
     alt: "Product Image 6",
     product: "Sadi",
@@ -338,6 +380,7 @@ const ProductList = [
     category:"fashion",
   },
   {
+    id:43,
     src: "https://m.media-amazon.com/images/I/71bfPnNplmL._AC_UL320_.jpg",
     alt: "Product Image 7",
     product: "Wallet",
@@ -346,6 +389,7 @@ const ProductList = [
     category:"fashion",
   },
   {
+    id:44,
     src: "https://m.media-amazon.com/images/I/616NVTS05CL._AC_UL320_.jpg",
     alt: "Product Image 8",
     product: "Jewellery",
@@ -354,6 +398,9 @@ const ProductList = [
     category:"fashion",
   },
   {
+
+    id:45,
+
     src: "https://m.media-amazon.com/images/I/71irYwattwL._AC_UL320_.jpg",
     alt: "Product Image 5",
     product: "Purse",

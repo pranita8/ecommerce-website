@@ -32,4 +32,6 @@ const Item = ({src, alt, product, price, desc}) => {
   )
 }
 
+
 export default Item
+
