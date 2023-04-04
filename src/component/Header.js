@@ -1,6 +1,6 @@
 import "./Header.css";
 import { FcShop } from "react-icons/fc";
-import { AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineSearch,AiOutlineHeart } from "react-icons/ai";
 import {SlBasket} from'react-icons/sl';
 import { Link } from "react-router-dom";
 
@@ -24,6 +24,12 @@ const Header = () => {
             <Link className="cart" to='addtocart'>
             <SlBasket className='basket'/>
             <span className="counter">1</span>
+            </Link>
+          </li>
+          <li>
+            <Link className="wishlist" to="wishlisticon">
+             <AiOutlineHeart className="heart"/>
+
             </Link>
           </li>
               
