@@ -79,7 +79,7 @@ const Slider = ({ slides }) => {
     <div style={sliderStyles}>
       <div>
         <div onClick={previous} style={leftArrowStyles}>
-          ❰
+          
         </div>
         <div onClick={next} style={rightArrowStyles}>
           ❱
