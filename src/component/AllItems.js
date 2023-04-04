@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Lists from './List.css'
 import ProductList from './ProductList';
 import { Link } from 'react-router-dom';
-import './Allitems.css';
+// import './Allitems.css';
 
 function AllItems() {
     const [items, setItems] = useState(ProductList);
