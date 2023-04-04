@@ -1,29 +1,29 @@
 .allcard-container img {
-    max-width: 100%;
-    height: 200px;
-  }
-  .main-card--cointainer{
-    background-color: rgb(232, 216, 248);
-    padding: 20px;
-  }
- .allcard-container{
-  display: grid;
-  grid-template-columns: 430px 430px 430px ;
- 
-  gap: 20px 20px;
-  padding: 10px;
-  margin: 10px;
-  }
-  .heart{
-    margin-left:300px;
-     color: red;
-     height: 30px;
-     width: 30px;
-     z-index: 1;
-   }
-   .addcart_button{
-    border:black 1px;
-    color:rgb(8, 8, 8);
-    background-color:#fffafa;
-    margin-top: 15px;
-  }
+  max-width: 100%;
+  height: 200px;
+}
+.main-card--cointainer{
+  background-color: rgb(232, 216, 248);
+  padding: 20px;
+}
+.allcard-container{
+display: grid;
+grid-template-columns: 430px 430px 430px ;
+
+gap: 20px 20px;
+padding: 10px;
+margin: 10px;
+}
+.heart{
+  margin-left:300px;
+   color: red;
+   height: 30px;
+   width: 30px;
+   z-index: 1;
+ }
+ .addcart_button{
+  border:black 1px;
+  color:rgb(8, 8, 8);
+  background-color:#fffafa;
+  margin-top: 15px;
+}
