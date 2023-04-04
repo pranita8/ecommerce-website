@@ -24,9 +24,20 @@ function App() {
 
   return (
     <div className="App">
+        <div className="containerStyles">
+        <Slider images={images} />
+        <Login/> 
+        <Signup/>
+    </div> 
+  
+
+    <Routes>
+        {/* home page */}
+
       <Routes>
         {/* home page */}
         
+
         <Route path='/' element={
           <>
             {/* <Header/>
@@ -42,8 +53,14 @@ function App() {
 
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
+        <Route path='/allproducts' element={<Allproduct/>}/>
+      </Routes>
+  
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
       </Routes>
     </div>
+
   );
 }
 
