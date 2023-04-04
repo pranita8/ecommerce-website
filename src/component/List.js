@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Lists from './List.css'
+import { Link } from 'react-router-dom'
 
 
 function List() {
@@ -7,6 +8,7 @@ function List() {
   
   return (
     <>
+    <Link to="/allItems">
     <div className='list'>
         <div className='elements'>
             <img className ="images"src='https://e7.pngegg.com/pngimages/74/72/png-clipart-grocery-store-kabul-farms-supermarket-food-online-grocer-grocery-food-food-supermarket-thumbnail.png' alt='grocerey'/>
@@ -31,7 +33,7 @@ function List() {
         </div>
     </div>
 
-   
+    </Link>
     </>
   )
 }
