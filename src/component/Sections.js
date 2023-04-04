@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Sections.css";
 const Sections = (props) => {
   return (
@@ -6,7 +7,9 @@ const Sections = (props) => {
       <div className="product-container">
         <div className="sticky">
           <h2 className="product-heading">{props.type[0].desc}</h2>
+        <Link to={"/allItems"} >
           <button className="btn">View All</button>
+          </Link> 
           <img
             className="everything"
             src={props.type[0].url}
