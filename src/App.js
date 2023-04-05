@@ -6,8 +6,8 @@ import Footer from './component/Footer';
 import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
-import ViewAll from './component/ViewAll';
-import SingleProduct from './component/SingleProduct';
+// import ViewAll from './component/ViewAll';
+// import SingleProduct from './component/SingleProduct';
 import { Route, Routes } from 'react-router-dom';
 
 import AllItems from './component/AllItems';
@@ -41,6 +41,7 @@ function App() {
           <>
             <Header/>
              <List />
+             <Slider/>
             <div className="containerStyles">
             </div>
             {/* <ViewAll /> */}
