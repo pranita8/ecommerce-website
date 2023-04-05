@@ -2,13 +2,8 @@ import "./Header.css";
 import { FcShop } from "react-icons/fc";
 
 import { AiOutlineSearch } from "react-icons/ai";
-
 import {SlBasket} from "react-icons/sl";
-
-
-import { AiOutlineSearch,AiOutlineHeart } from "react-icons/ai";
-import {SlBasket} from'react-icons/sl';
-
+import {AiOutlineHeart } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Header = () => {

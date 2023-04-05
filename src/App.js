@@ -1,12 +1,12 @@
 import './App.css';
 import Login from './component/Login';
 import Signup from './component/Signup';
-// import Slider from './component/Slider';
-// import Footer from './component/Footer';
-// import Product from './component/Product';
-// import Header from './component/Header';
-// import List from './component/List';
-// import ViewAll from './component/ViewAll';
+import Slider from './component/Slider';
+import Footer from './component/Footer';
+import Product from './component/Product';
+import Header from './component/Header';
+import List from './component/List';
+import ViewAll from './component/ViewAll';
 import SingleProduct from './component/SingleProduct';
 import { Route, Routes } from 'react-router-dom';
 
@@ -39,19 +39,18 @@ function App() {
         
         <Route path='/' element={
           <>
-            {/* <Header/>
+            <Header/>
              <List />
             <div className="containerStyles">
             </div>
-            <ViewAll /> */}
-            {/* <Product /> */}
-            <SingleProduct/>
-            {/* <Footer /> */}
+            {/* <ViewAll /> */}
+            <Product />
+            {/* <SingleProduct/> */}
+            <Footer />
           </>} />
 
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-
         <Route path='/allItems' element={<AllItems/>}/>
         <Route path='/signup' element={<AllItems />} />
       </Routes>
