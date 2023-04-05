@@ -9,10 +9,6 @@ import List from './component/List';
 import { Route, Routes } from 'react-router-dom';
 import AllItems from './component/AllItems';
 
-// import Allproduct from './component/Allproduct';
-
-// import Cart from './component/Cart';
-// import { Scrollbars } from 'react-custom-scrollbars-2';
 
 
 
