@@ -20,6 +20,7 @@ const Footer = () => {
                         <a href="/about"><p>About Us</p></a>
                         <a href="/career"><p>Careers</p></a>
                     </div>
+
                     <div className="help-section">
                         <h1>Help</h1>
                         <a href="/payment"><p>Payments</p></a>
@@ -40,6 +41,7 @@ const Footer = () => {
                         <a href="/email"><p><MdOutlineEmail/> shraddha.bidwe@gmail.com</p></a> 
                     </div>
                 </div>
+
                 <div className="sub-footer">
                     <a href="/gift"><p><MdCardGiftcard /> Gift Cards</p></a>
                     <a href="/advertise"><p><RiAdvertisementLine /> Advertise</p></a>

@@ -15255,7 +15255,7 @@
       }
     },
     "node_modules/react-router": {
-
+<<<<<<< HEAD
       "version": "6.9.0",
       "resolved": "https://registry.npmjs.org/react-router/-/react-router-6.9.0.tgz",
       "integrity": "sha512-51lKevGNUHrt6kLuX3e/ihrXoXCa9ixY/nVWRLlob4r/l0f45x3SzBvYJe3ctleLUQQ5fVa4RGgJOTH7D9Umhw==",
@@ -19770,19 +19770,21 @@
       "integrity": "sha512-AeweANOIo0Mb8GiYm3xhTEBVCmPwTYAu9Hcd2qSkLuga/6+j9b1Jskl5bpiSQWy9eJ/j5pavxj6eYogmnuzm+Q=="
     },
     "@firebase/auth": {
-
+<<<<<<< HEAD
+<<<<<<< HEAD
       "version": "0.22.0",
       "resolved": "https://registry.npmjs.org/@firebase/auth/-/auth-0.22.0.tgz",
       "integrity": "sha512-4PiaDJEhJ7FNo48WG0TAlqHiCuRBXxUow2q+0emh+PhmM0cLT1UdqK1EuWWGc5CY+ztNQZUh+Yzeh+nv9tZL0w==",
-
+=======
       "version": "0.21.5",
       "resolved": "https://registry.npmjs.org/@firebase/auth/-/auth-0.21.5.tgz",
       "integrity": "sha512-Pt/S24qbtJeFPxYxcQHDNgYAuEa9oyCK1XJBQ9Kc3FT1rDMb1OaK6wfnDDrCChQfENdHZVI1pGw4QG6/tO3NWw==",
-
+>>>>>>> e5c43e496c986ed2cb493e31b4e1019e561f837f
+=======
       "version": "0.22.0",
       "resolved": "https://registry.npmjs.org/@firebase/auth/-/auth-0.22.0.tgz",
       "integrity": "sha512-4PiaDJEhJ7FNo48WG0TAlqHiCuRBXxUow2q+0emh+PhmM0cLT1UdqK1EuWWGc5CY+ztNQZUh+Yzeh+nv9tZL0w==",
-
+>>>>>>> pranita8/master
       "requires": {
         "@firebase/component": "0.6.4",
         "@firebase/logger": "0.4.0",
@@ -19885,7 +19887,7 @@
       "version": "3.10.0",
       "resolved": "https://registry.npmjs.org/@firebase/firestore/-/firestore-3.10.0.tgz",
       "integrity": "sha512-St6yy2r7zYxJiAEiI19aQJqxVV8LDvlmeK52R9KMn2nZsgdDVOurch1cH7bBl0OxEgfiVxBmAQJLYvZc+qwAgw==",
-
+>>>>>>> pranita8/master
       "requires": {
         "@firebase/component": "0.6.4",
         "@firebase/logger": "0.4.0",
@@ -19898,29 +19900,30 @@
       }
     },
     "@firebase/firestore-compat": {
-
+<<<<<<< HEAD
+<<<<<<< HEAD
       "version": "0.3.6",
       "resolved": "https://registry.npmjs.org/@firebase/firestore-compat/-/firestore-compat-0.3.6.tgz",
       "integrity": "sha512-svS8oV0nwTyoHW5mslFV0gRb3FLpRQGjz2F7nc5imnPUTjSJmAfXECtgs5HG5MSJM/laSimfAeGuQVh5FM1AEw==",
       "requires": {
         "@firebase/component": "0.6.4",
         "@firebase/firestore": "3.10.0",
-
+=======
       "version": "0.3.5",
       "resolved": "https://registry.npmjs.org/@firebase/firestore-compat/-/firestore-compat-0.3.5.tgz",
       "integrity": "sha512-gwBFGOqNIgF2TOJ2mKIS1lTQy6I9DytWsmIfvXGV76is53MaZUZXyUZd7oIC8h2Otq6gP3xtvPRQJTMcnQrbFg==",
       "requires": {
         "@firebase/component": "0.6.4",
         "@firebase/firestore": "3.9.0",
-
-
+>>>>>>> e5c43e496c986ed2cb493e31b4e1019e561f837f
+=======
       "version": "0.3.6",
       "resolved": "https://registry.npmjs.org/@firebase/firestore-compat/-/firestore-compat-0.3.6.tgz",
       "integrity": "sha512-svS8oV0nwTyoHW5mslFV0gRb3FLpRQGjz2F7nc5imnPUTjSJmAfXECtgs5HG5MSJM/laSimfAeGuQVh5FM1AEw==",
       "requires": {
         "@firebase/component": "0.6.4",
         "@firebase/firestore": "3.10.0",
-
+>>>>>>> pranita8/master
         "@firebase/firestore-types": "2.5.1",
         "@firebase/util": "1.9.3",
         "tslib": "^2.1.0"
@@ -20850,7 +20853,11 @@
         "source-map": "^0.7.3"
       }
     },
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e5c43e496c986ed2cb493e31b4e1019e561f837f
+    "@protobufjs/aspromise": {
       "version": "1.1.2",
       "resolved": "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz",
       "integrity": "sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ=="
@@ -20904,17 +20911,19 @@
       "resolved": "https://registry.npmjs.org/@protobufjs/utf8/-/utf8-1.1.0.tgz",
       "integrity": "sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw=="
     },
-
-    "@remix-run/router":{
+<<<<<<< HEAD
+=======
+    "@remix-run/router": {
       "version": "1.4.0",
       "resolved": "https://registry.npmjs.org/@remix-run/router/-/router-1.4.0.tgz",
       "integrity": "sha512-BJ9SxXux8zAg991UmT8slpwpsd31K1dHHbD3Ba4VzD+liLQ4WAMSxQp2d2ZPRPfN0jN2NPRowcSSoM7lCaF08Q=="
-    },
+=======
+>>>>>>> e5c43e496c986ed2cb493e31b4e1019e561f837f
     "@remix-run/router": {
       "version": "1.5.0",
       "resolved": "https://registry.npmjs.org/@remix-run/router/-/router-1.5.0.tgz",
       "integrity": "sha512-bkUDCp8o1MvFO+qxkODcbhSqRa6P2GXgrGZVpt0dCXNW2HCSCqYI0ZoAqEOSAjRWmmlKcYgFvN4B4S+zo/f8kg=="
-
+>>>>>>> c4599373b117dbab02e7a5809449cb1eab7e3d07
     },
     "@rollup/plugin-babel": {
       "version": "5.3.1",
@@ -24637,7 +24646,8 @@
       }
     },
     "firebase": {
-
+<<<<<<< HEAD
+<<<<<<< HEAD
       "version": "9.19.1",
       "resolved": "https://registry.npmjs.org/firebase/-/firebase-9.19.1.tgz",
       "integrity": "sha512-MeukV4NIk6usV1ZbnoA36gumK62JzxOZmF6OZyqkFwJ7edpAEyYNZXvExQlFsvnx2ery0UwNIvu4pKIZS3HiEQ==",
@@ -24655,15 +24665,15 @@
         "@firebase/database-compat": "0.3.4",
         "@firebase/firestore": "3.10.0",
         "@firebase/firestore-compat": "0.3.6",
-
+=======
       "version": "9.18.0",
       "resolved": "https://registry.npmjs.org/firebase/-/firebase-9.18.0.tgz",
       "integrity": "sha512-CTV5S3mTtn9zodeWkdeTqiQFyS7t+iskA50V9hVKPCQ4TPw4tnoyNgtNzWUmemFnYadzzsTnAaxsR7UaBJgiqw==",
-
+=======
       "version": "9.19.1",
       "resolved": "https://registry.npmjs.org/firebase/-/firebase-9.19.1.tgz",
       "integrity": "sha512-MeukV4NIk6usV1ZbnoA36gumK62JzxOZmF6OZyqkFwJ7edpAEyYNZXvExQlFsvnx2ery0UwNIvu4pKIZS3HiEQ==",
-
+>>>>>>> pranita8/master
       "requires": {
         "@firebase/analytics": "0.9.5",
         "@firebase/analytics-compat": "0.2.5",
@@ -24676,14 +24686,14 @@
         "@firebase/auth-compat": "0.3.7",
         "@firebase/database": "0.14.4",
         "@firebase/database-compat": "0.3.4",
-
+<<<<<<< HEAD
         "@firebase/firestore": "3.9.0",
         "@firebase/firestore-compat": "0.3.5",
-
-
+>>>>>>> e5c43e496c986ed2cb493e31b4e1019e561f837f
+=======
         "@firebase/firestore": "3.10.0",
         "@firebase/firestore-compat": "0.3.6",
-
+>>>>>>> pranita8/master
         "@firebase/functions": "0.9.4",
         "@firebase/functions-compat": "0.3.4",
         "@firebase/installations": "0.6.4",
@@ -29069,7 +29079,7 @@
       "integrity": "sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A=="
     },
     "react-router": {
-
+<<<<<<< HEAD
       "version": "6.9.0",
       "resolved": "https://registry.npmjs.org/react-router/-/react-router-6.9.0.tgz",
       "integrity": "sha512-51lKevGNUHrt6kLuX3e/ihrXoXCa9ixY/nVWRLlob4r/l0f45x3SzBvYJe3ctleLUQQ5fVa4RGgJOTH7D9Umhw==",
@@ -29084,7 +29094,7 @@
       "requires": {
         "@remix-run/router": "1.4.0",
         "react-router": "6.9.0"
-
+=======
       "version": "6.10.0",
       "resolved": "https://registry.npmjs.org/react-router/-/react-router-6.10.0.tgz",
       "integrity": "sha512-Nrg0BWpQqrC3ZFFkyewrflCud9dio9ME3ojHCF/WLsprJVzkq3q3UeEhMCAW1dobjeGbWgjNn/PVF6m46ANxXQ==",
@@ -29099,7 +29109,7 @@
       "requires": {
         "@remix-run/router": "1.5.0",
         "react-router": "6.10.0"
-
+>>>>>>> c4599373b117dbab02e7a5809449cb1eab7e3d07
       }
     },
     "react-scripts": {
@@ -31265,4 +31275,3 @@
     }
   }
 }
-

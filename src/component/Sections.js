@@ -7,7 +7,7 @@ const Sections = (props) => {
       <div className="product-container">
         <div className="sticky">
           <h2 className="product-heading">{props.type[0].desc}</h2>
-        <Link to={"/allproducts"} >
+        <Link to={"/allItems"} >
           <button className="btn">View All</button>
           </Link> 
           <img
@@ -16,8 +16,10 @@ const Sections = (props) => {
             alt="img"
           ></img>
         </div>
+
         <div className="images">
-          {props.images.map((image, index) => (
+          {props.images.map((image, index) => 
+          (
             <div>
               <img
                 className="img"
@@ -31,6 +33,7 @@ const Sections = (props) => {
                 <h4>{image.desc}</h4>
               </div>
             </div>
+            
           ))}
         </div>
       </div>
@@ -39,3 +42,4 @@ const Sections = (props) => {
 };
 
 export default Sections;
+

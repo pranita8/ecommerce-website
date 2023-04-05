@@ -2,10 +2,10 @@ import { Link, useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Login.css';
-import {auth} from '../firebase';
+import {auth} from './firebase';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from 'react';
-import InputControl from './Input';
+import Input from './Input';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -42,14 +42,14 @@ const Login = () => {
         <div className='main_container'>
             <h1>Sign In</h1>
          <div className='form'>
-         <InputControl
+         <Input
           label="Email"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, email: event.target.value }))
           }
         />
 
-       <InputControl
+       <Input
           label="Password"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, pass: event.target.value }))
