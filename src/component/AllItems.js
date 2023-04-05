@@ -22,9 +22,6 @@ function AllItems() {
                     <img className="images" src='https://e7.pngegg.com/pngimages/74/72/png-clipart-grocery-store-kabul-farms-supermarket-food-online-grocer-grocery-food-food-supermarket-thumbnail.png' alt='grocerey' />
 
                     <button className='products-button' onClick={() =>setItems(ProductList)}><b>All</b></button>
-
-                    <button className='products-button' onClick={() =>setItems(ProductList)}>All</button>
-
                 </div>
 
                 <div className='elements'>
@@ -91,6 +88,7 @@ function AllItems() {
                                 <button className='cart-button'><b>Add To Cart</b></button>
 
                                 </div>
+                            </div>
                             </div>
                         )
 
