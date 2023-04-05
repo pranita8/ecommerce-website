@@ -16,6 +16,7 @@ import ProductList from './component/ProductList';
 // slider array images
 function App() {
   const slides = [
+    
     { url: "https://i.pinimg.com/originals/b8/ce/12/b8ce12af4e594bcb26b8f55b0377dad4.jpg" },
     { url: "https://www.compareraja.in/blog/wp-content/uploads/2014/01/flipkart-book-offers-1440x564_c.jpg" },
     { url: "https://images.indianexpress.com/2020/11/Untitled-design-93.jpg" },
