@@ -7,8 +7,8 @@ const Sections = (props) => {
       <div className="product-container">
         <div className="sticky">
           <h2 className="product-heading">{props.type[0].desc}</h2>
-          <Link to={"/allproducts"} >
-          <button className="btn">{props.type[0].btntype}</button>
+          <Link to="/allItems">
+          <button className="btn">View All</button>
           </Link> 
           <img
             className="everything"

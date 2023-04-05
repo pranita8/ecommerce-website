@@ -24,8 +24,6 @@ function App() {
 
   return (
     <div className="App">
-  
-
       <Routes>
         {/* home page */}
         <Route path='/' element={
