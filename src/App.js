@@ -22,7 +22,6 @@ function App() {
     { url: "https://cdn.grabon.in/gograbon/images/web-images/uploads/1593767938443/groceries-offers.jpg" },
   ]
 
-
   return (
     <div className="App">
   
