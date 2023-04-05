@@ -22,16 +22,14 @@
      z-index: 1;
    }
    .addcart_button{
-
-    border-radius: 4px;
-    color:white;
-    background-color:black;
-
-    border:black 1px;
-    color:rgb(8, 8, 8);
-    background-color:#fffafa;
     margin-top: 25px;
-
+    background-color:#fffafa;
+    color:rgb(8, 8, 8);
+      color: rgb(31, 29, 29);
+      border-radius: 4px;
+      width: 100px;
+      height: 30px;
+      border:black 1px;
   }
   .viewitem{
     margin-top: 20px;
@@ -42,8 +40,12 @@
     margin-left: 140px;
   }
 
-  .products-button{
-    border: none;
-    background-color: white;
-
+   .products-button{
+      background-color:#D2042D;
+      color: white;
+      border-radius: 5px;
+      width: 100px;
+      height: 30px;
   }
+
+  
