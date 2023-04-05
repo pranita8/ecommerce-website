@@ -40,7 +40,9 @@ const dotStyle = {
   fontSize: "20px",
 };
 
-const Slider = ({ slides }) => {
+const Slider=({slides}) => {
+
+
   // usestate create
   const [currIndex, setCurrIndex] = useState(0);
 
