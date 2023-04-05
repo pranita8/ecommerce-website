@@ -64,6 +64,7 @@ function AllItems() {
                                 <p>{product}</p>
                                 <p>{price}</p>
                                 <button className='addcart_button'><b>Add To Cart</b></button>
+                                <Link to={`/singleproduct/${id}`}><p className='viewitem'>view...</p></Link>
                                 </div>
                             </div>
                         )
