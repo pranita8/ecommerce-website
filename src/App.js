@@ -59,13 +59,13 @@ function App() {
           </>}></Route>
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-<<<<<<< HEAD
+
         <Route path='/allItems' element={<AllItems/>}/>
         {/* <Route path='/addcart' element={<Cart />}/> */}
-=======
+
         <Route path='/signup' element={<AllItems />} />
          
->>>>>>> 60322acb648c6d1c08a0bbc61f6db9d00c9eb29a
+
       </Routes>
 
 
