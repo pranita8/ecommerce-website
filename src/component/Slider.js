@@ -41,6 +41,8 @@ const dotStyle = {
 };
 
 const Slider=({slides}) => {
+
+
   // usestate create
   const [currIndex, setCurrIndex] = useState(0);
 
