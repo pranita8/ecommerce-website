@@ -48,8 +48,9 @@ const Login = () => {
             setValues((prev) => ({ ...prev, email: event.target.value }))
           }
         />
-
-       <Input
+        
+    
+        <Input
           label="Password"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, pass: event.target.value }))

@@ -13,3 +13,11 @@
     height: 100px;
     padding-top:10px;
 }
+
+.products-button{
+    background-color:#D2042D;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
