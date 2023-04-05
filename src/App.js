@@ -11,6 +11,7 @@ import AllItems from './component/AllItems';
 import SingleProduct from './component/SingleProduct';
 import ProductList from './component/ProductList';
 
+
 // slider array images
 function App() {
   const slides = [
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div className="App">
+
       <Routes>
         {/* home page */}
         <Route path='/' element={
@@ -40,6 +42,7 @@ function App() {
         <Route path='/allItems' element={<AllItems/>}/>
         <Route path='/signup' element={<AllItems />} />
         <Route path='/singleproduct/:id' element={<SingleProduct/>}/>
+
       </Routes>
    </div>
   );

@@ -1,14 +1,17 @@
-import React from "react";
-
+import React,{useState} from "react";
+import { data } from "./Data"; 
 import './Cart.css';
 import Item from "./Item";
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { CgShoppingCart } from 'react-icons/cg';
 import { BiArrowBack} from 'react-icons/bi';
+// import {Link} from "react-router-dom";
 
 
 
 const Cart = () => {
+
+    const [item, setItem] = useState(data);
 
     
 
@@ -26,18 +29,23 @@ const Cart = () => {
         <hr />
         
         <div className="cart-section">
-            <h2>SHOPPING CART</h2>
+            <h2>Shopping Cart</h2>
             <div className="shopped-items">
                 <div className="items-container">
                 <Scrollbars>
-                    <Item />
+                    {
+                        item.map((curItem) => {
+                            return <Item  key={curItem.id} {...curItem}/>
+                        })
+                    }
+                    
                 </Scrollbars>
 
                 </div>
             </div>
         </div>
         <div className="total">
-            <h4>Total Amount : ₹10000</h4>
+            <h4>Total Amount : {price}</h4>
             <button className="place-order-btn"><h2>Place Order</h2></button>
         </div>
         </div>
