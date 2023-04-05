@@ -8,7 +8,11 @@ import Header from './component/Header';
 import List from './component/List';
 import { Route, Routes } from 'react-router-dom';
 import AllItems from './component/AllItems';
+
 // import Allproduct from './component/Allproduct';
+
+// import Cart from './component/Cart';
+// import { Scrollbars } from 'react-custom-scrollbars-2';
 
 
 
@@ -40,10 +44,11 @@ function App() {
           </>} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-        {/* <Route path='/allproducts' element={<Allproduct/>}/> */}
         <Route path='/allItems' element={<AllItems/>}/>
+        <Route path='/signup' element={<AllItems />} />
+
       </Routes>
-    </div>
+   </div>
   );
 }
 
