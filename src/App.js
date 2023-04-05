@@ -39,13 +39,24 @@ function App() {
           </>} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
+<<<<<<< HEAD
+
+        <Route path='/allItems' element={<AllItems/>}/>
+        {/* <Route path='/addcart' element={<Cart />}/> */}
+
+        <Route path='/signup' element={<AllItems />} />
+         
+=======
         <Route path='/allItems' element={<AllItems/>}/>
         <Route path='/signup' element={<AllItems />} />
+<<<<<<< HEAD
+>>>>>>> a054920b8e1735af1055fec438c245cd849446ea
+=======
         <Route path='/singleproduct/:id' element={<SingleProduct/>}/>
+>>>>>>> 71a673212cbd920aebaba981c38543c646191959
 
       </Routes>
    </div>
   );
 }
-
 export default App;
