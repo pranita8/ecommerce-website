@@ -19,16 +19,16 @@ const Header = () => {
           <AiOutlineSearch className="search_icon" />
         </div>
         <ul className="Headerlogin">
-          <li>
+          <li className="iconsheader">
             <Link to="/login"><button>Login</button></Link>
-          </li>
-          <li>
+          {/* </li>
+          <li> */}
             <Link className="cart" to='addtocart'>
               <SlBasket className='basket' />
               <span className="counter">1</span>
             </Link>
             <Link className="wishlist" to="wishlisticon">
-              <AiOutlineHeart className="heart" />
+              <AiOutlineHeart className="hearticon" />
             </Link>
           </li>
 

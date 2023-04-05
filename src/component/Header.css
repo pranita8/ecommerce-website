@@ -79,3 +79,13 @@ button{
   margin-left: 0%;
  margin-bottom: 50px;
 }
+.iconsheader{
+margin-top: 10px;
+}
+.hearticon{
+  margin-left:10px;
+   color: red;
+   height: 30px;
+   width: 30px;
+   z-index: 1;
+ }
