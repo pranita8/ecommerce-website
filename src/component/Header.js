@@ -1,11 +1,8 @@
 import "./Header.css";
 import { FcShop } from "react-icons/fc";
-import { AiOutlineSearch } from "react-icons/ai";
 import { SlBasket } from 'react-icons/sl';
 import { AiOutlineSearch,AiOutlineHeart } from "react-icons/ai";
-import {SlBasket} from'react-icons/sl';
 import { Link } from "react-router-dom";
-import { AiOutlineHeart } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -34,10 +31,6 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link className="wishlist" to="wishlisticon">
-             <AiOutlineHeart className="heart"/>
-
-            </Link>
           </li>
         </ul>
 
