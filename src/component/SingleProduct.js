@@ -18,6 +18,7 @@ const SingleProduct = ({}) => {
     img4:"https://m.media-amazon.com/images/I/61-CiRLFhqL._AC_SS450_.jpg",
 }
 
+
   const [quantity, setQuantity] = useState(1);
 
   const handleQuantityChange = (event) => {
