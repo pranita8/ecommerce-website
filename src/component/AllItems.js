@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Lists from './List.css'
 import ProductList from './ProductList';
 import { Link } from 'react-router-dom';
-import './Allitems.css';
+import './AllIt.css';
 
 function AllItems() {
     const [items, setItems] = useState(ProductList);
@@ -45,7 +45,7 @@ function AllItems() {
             </div>
 
 
-            <div className='card-container'>
+            <div className='allcard-container'>
                 {
                     items.map((curElem) => {
                         const { id,src, product, price } = curElem
@@ -71,5 +71,4 @@ function AllItems() {
         </>
     )
 }
-
 export default AllItems;
