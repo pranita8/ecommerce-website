@@ -33,8 +33,6 @@ const Header = () => {
           </li>
           <li>
             <Link className="wishlist" to="wishlisticon">
-             <AiOutlineHeart className="heart"/>
-
             </Link>
           </li>
         </ul>
