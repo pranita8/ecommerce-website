@@ -80,6 +80,14 @@ button{
  margin-bottom: 50px;
 }
 
+.hearticon{
+  margin-left:10px;
+   color: red;
+   height: 30px;
+   width: 30px;
+   z-index: 1;
+ }
+
 .heart{
   height: 30px;
   width: 45px;
