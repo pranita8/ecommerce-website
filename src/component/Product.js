@@ -336,6 +336,7 @@ const Product = () => {
     {
       desc: "Best of Fashion",
       url: "https://png.pngtree.com/element_our/png_detail/20181207/creative-electronics-icon-background-png_263987.jpg",
+      btntype:"fashion"
     },
   ];
 // https://seeklogo.com/images/F/fashion-logo-97D0B0C702-seeklogo.com.png
@@ -343,6 +344,7 @@ const Product = () => {
     {
       desc: "Best of Electronic",
       url: "https://png.pngtree.com/element_our/png_detail/20181207/creative-electronics-icon-background-png_263987.jpg",
+      btntype:"electronics"
     },
   ];
 
@@ -350,6 +352,7 @@ const Product = () => {
     {
       desc: "Best of Grocery",
       url: "https://cdn.dribbble.com/userupload/3346788/file/original-09e4cf74c9cdbd24fb8fc44f716c607f.png?crop=153x115-1447x1085&resize=400x0",
+      btntype:"grocery"
     },
   ];
 
@@ -357,6 +360,7 @@ const Product = () => {
     {
       desc: "Best of Home",
       url: "https://thumbs.dreamstime.com/b/house-tree-logo-real-estate-image-vector-design-graphic-symbol-template-105126143.jpg",
+      btntype:"home"
     },
   ];
 
@@ -364,6 +368,7 @@ const Product = () => {
     {
       desc: "Best of Books",
       url: "https://www.graphicsprings.com/filestorage/stencils/2f3bdb9733c4a68659dc2900a7595fea.png?width=500&height=500",
+      btntype:"book"
     },
   ];
 
@@ -376,6 +381,7 @@ const Product = () => {
       <Sections images={grocery_images} type={Grocery} />
       <Sections images={home_images} type={Home}/>
       <Sections images={books_images} type={Books}/>
+
     </div>
   );
 };
