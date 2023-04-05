@@ -2226,11 +2226,11 @@
       }
     },
     "node_modules/@firebase/analytics": {
-<<<<<<< HEAD
+
       "version": "0.9.5",
       "resolved": "https://registry.npmjs.org/@firebase/analytics/-/analytics-0.9.5.tgz",
       "integrity": "sha512-hJTVs2jLxPXE7hs7D/jaEsgGivrm7tSEl65kb5NkDBWV7QQBUnRfVML/xra9nTFLLJhAdbExZPHg6HfIuMSYEQ==",
-=======
+
       "version": "0.9.4",
       "resolved": "https://registry.npmjs.org/@firebase/analytics/-/analytics-0.9.4.tgz",
       "integrity": "sha512-Mb2UaD0cyJ9DrTk4Okz8wqpjZuVRVXHZOjhbQcmGb8VtibXY1+jm/k3eJ21r7NqUKnjWejYM2EX+hI9+dtXGkQ==",
