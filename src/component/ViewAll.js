@@ -1,8 +1,14 @@
+
 // import React,{useState} from 'react'
 // import Header from './component/Header'
 import Header from './Header'
 import List from './List'
 import './ViewAll.css'
+import React,{useState} from 'react'
+// import Header from './component/Header'
+import Header from './Header'
+import List from './List'
+import ViewAlll from './ViewAll.css'
 import Card from './Card'
 
 
@@ -78,7 +84,6 @@ function ViewAll() {
     <Header/>
     <List/>
     <img  className ="Yourgrocery"src='https://food-ubc.b-cdn.net/wp-content/uploads/2020/02/Save-Money-On-Groceries_UBC-Food-Services.jpg' alt='grocery'/>
-   
     <Card data={grocery_images}/>
     
      

@@ -7,7 +7,7 @@ const Sections = (props) => {
       <div className="product-container">
         <div className="sticky">
           <h2 className="product-heading">{props.type[0].desc}</h2>
-        <Link to={"/allproducts"} >
+        <Link to={"/allItems"} >
           <button className="btn">View All</button>
           </Link> 
           <img
@@ -42,3 +42,4 @@ const Sections = (props) => {
 };
 
 export default Sections;
+

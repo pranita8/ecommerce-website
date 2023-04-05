@@ -86,3 +86,11 @@
   margin-left: 0%;
  margin-bottom: 50px;
 }
+
+.heart{
+  height: 30px;
+  width: 45px;
+  z-index: 1;
+  color: red;
+
+}
