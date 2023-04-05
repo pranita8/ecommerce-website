@@ -16,10 +16,6 @@ function Card({data}) {
      
     })
     }
-  
-
-   
-
     </div>
   )
 }
