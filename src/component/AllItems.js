@@ -50,7 +50,7 @@ function AllItems() {
 
             <div className='allcard-container'>
                 {
-                    items.map ((curElem) => {
+                    items.map((curElem) => {
                         const { id,src, product, price } = curElem
                         return (
                             <div className='main-card--cointainer' key={id}>
@@ -67,9 +67,8 @@ function AllItems() {
                                 <Link to={`/singleproduct/${id}`}><p className='viewitem'>view...</p></Link>
                                 </div>
                             </div>
-                            </div>
                         )
-                
+
                     })
                 }
           
