@@ -22,8 +22,16 @@
      z-index: 1;
    }
    .addcart_button{
-    border:black 1px;
-    color:rgb(8, 8, 8);
-    background-color:#fffafa;
+    border-radius: 4px;
+    color:white;
+    background-color:black;
     margin-top: 15px;
+    height: 25px;
+    width: 100px;
+  }
+
+  .products-button{
+    border: none;
+    background-color: white;
+
   }
