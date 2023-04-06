@@ -4,7 +4,7 @@
     justify-content:space-around;
 }
 .images{
-    width: 60px;
+    width: 80px;
     height: 60px;
 }
 
@@ -12,10 +12,11 @@
     width: 70px;
     height: 100px;
     padding-top:10px;
+
 }
 
 .products-button{
-    background-color:#D2042D;
+    background-color:red;
     color: white;
     border-radius: 5px;
     width: 100px;
