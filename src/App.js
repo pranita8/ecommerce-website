@@ -39,9 +39,12 @@ function App() {
           </>} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
+
         <Route path='/allItems' element={<AllItems/>}/>
-        <Route path='/signup' element={<AllItems />} />
+        {/* <Route path='/addcart' element={<Cart />}/> */}
+
         <Route path='/singleproduct/:id' element={<SingleProduct/>}/>
+
 
       </Routes>
    </div>

@@ -14,8 +14,10 @@
     padding-top:10px;
 }
 
-.products-buttonn{
-    border: 0px;
-    background-color: white;
-
+.products-button{
+    background-color:#D2042D;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
 }

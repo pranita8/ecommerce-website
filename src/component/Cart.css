@@ -1,18 +1,13 @@
-
 *{
     margin: 0px;
     padding: 0px;
 }
-
-
-
 .main-page{
     padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 3%;
 }
-
 .header{
    background: linear-gradient(#fad7d7,#887878);
    display: flex;
@@ -75,11 +70,16 @@
 
 .quantity input{
     width: 15%;
-    height: 2.5vh;
+    height: 4vh;
     text-align: center;
 }
-.quantity button{
-    width: 10%;
+.subtract-btn{
+    width: 15%;
+    cursor: pointer;
+    
+}
+.addition-btn{
+    width: 15%;
     cursor: pointer;
 }
 .save-later-btn{
@@ -89,6 +89,10 @@
     color: rgb(0, 0, 0);
     box-sizing: content-box;
     cursor: pointer;
+}
+.delete_btn{
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .total{

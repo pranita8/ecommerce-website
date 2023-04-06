@@ -27,7 +27,6 @@
     margin: auto 0;
     gap:15px;
 
-
   }
   .fcshop{
     padding-top: 5px;
@@ -88,10 +87,3 @@
    z-index: 1;
  }
 
-.heart{
-  height: 30px;
-  width: 45px;
-  z-index: 1;
-  color: red;
-
-}
