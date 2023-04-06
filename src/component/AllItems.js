@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import Lists from './List.css'
 import ProductList from './ProductList';
 import { Link } from 'react-router-dom';
-import AllItemss from "./AllItems.css";
+// import AllItemss from "./AllItems.css";
 import {AiOutlineHeart } from "react-icons/ai";
-import './Allitems.css';
+// import './Allitems.css';
+import AllIt from './AllIt.css';
+
 
 function AllItems() {
     const [items, setItems] = useState(ProductList);
@@ -92,6 +94,7 @@ function AllItems() {
 
                                 </div>
                             </div>
+                            </div>
                         )
 
                     })
@@ -102,7 +105,6 @@ function AllItems() {
         </>
     )
 }
-
 
 export default AllItems;
 

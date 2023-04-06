@@ -12,4 +12,22 @@
     width: 70px;
     height: 100px;
     padding-top:10px;
+
 }
+
+
+.products-btn{
+    background-color:white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px; 
+    border-width: 2px;
+    /* border-radius: 5px; */
+  /* border-image: linear-gradient(to right, darkblue, darkorchid) 1; */
+  margin-top: 8px;
+}
+
+.products-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px 0px  rgba(213, 199, 217, 0.7);
+  }
