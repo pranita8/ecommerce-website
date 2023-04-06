@@ -108,4 +108,3 @@ const Slider=({slides}) => {
 
 export default Slider;
 
-
