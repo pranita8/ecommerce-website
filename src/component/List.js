@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Lists from './List.css'
-// import ViewAll from './ViewAll'
 import ProductList from './ProductList';
 import { Link } from 'react-router-dom';
 

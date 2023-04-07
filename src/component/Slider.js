@@ -40,7 +40,9 @@ const dotStyle = {
   fontSize: "20px",
 };
 
-const Slider = ({ slides }) => {
+const Slider=({slides}) => {
+
+
   // usestate create
   const [currIndex, setCurrIndex] = useState(0);
 
@@ -79,7 +81,7 @@ const Slider = ({ slides }) => {
     <div style={sliderStyles}>
       <div>
         <div onClick={previous} style={leftArrowStyles}>
-          
+          ❰
         </div>
         <div onClick={next} style={rightArrowStyles}>
           ❱
