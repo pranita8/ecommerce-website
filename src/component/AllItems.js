@@ -67,13 +67,13 @@ function AllItems() {
                                 <Link to={`/singleproduct/${id}`}><p className='viewitem'>view...</p></Link>
                                 </div>
                             </div>
-                            </div>
+           
                         )
                 
                     })
                 }
+          </div>
           
-            </div>
             </Link>
 
             
